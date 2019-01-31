@@ -1,6 +1,6 @@
 <?php
 
-namespace Appstract\Options\Test;
+namespace RogerArruda\LaravelOptions\Test;
 
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Appstract\Options;
+namespace RogerArruda\LaravelOptions\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,6 +12,8 @@ class Option extends Model
      * @var bool
      */
     public $timestamps = false;
+
+    protected $primaryKey = 'key';
 
     /**
      * The attributes that are mass assignable.
@@ -76,7 +78,7 @@ class Option extends Model
      * @param  string  $key
      * @return mixed
      */
-    public function delete($key)
+    public function exclude($key)
     {
         if ($option = self::where('key', $key)->first()) {
             return $option->delete();

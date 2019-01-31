@@ -1,6 +1,6 @@
 <?php
 
-namespace Appstract\Options;
+namespace RogerArruda\LaravelOptions\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

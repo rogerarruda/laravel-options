@@ -1,6 +1,6 @@
 <?php
 
-namespace Appstract\Options\Console;
+namespace RogerArruda\LaravelOptions\Console;
 
 use Illuminate\Console\Command;
 use Appstract\Options\OptionFacade as Option;

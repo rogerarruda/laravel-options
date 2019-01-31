@@ -1,11 +1,13 @@
 # Laravel Options
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/appstract/laravel-options.svg?style=flat-square)](https://packagist.org/packages/appstract/laravel-options)
-[![Total Downloads](https://img.shields.io/packagist/dt/appstract/laravel-options.svg?style=flat-square)](https://packagist.org/packages/appstract/laravel-options)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/appstract/laravel-options/master.svg?style=flat-square)](https://travis-ci.org/appstract/laravel-options)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rogerarruda/laravel-options.svg?style=flat-square)](https://packagist.org/packages/rogerarruda/laravel-options)
+[![Total Downloads](https://img.shields.io/packagist/dt/rogerarruda/laravel-options.svg?style=flat-square)](https://packagist.org/packages/rogerarruda/laravel-options)
+[![Software License](https://img.shields.io/apm/l/laravel-options.svg?style=flat)](LICENSE.md)
+[![Compatible with Laravel](https://img.shields.io/badge/laravel-%5E5.7.*-brightgreen.svg)](https://laravel.com)
 
 Global key-value store in the database
+
+Original Copyright(c) [AppStract](https://github.com/appstract/laravel-options)
 
 ## Installation
 
@@ -15,9 +17,9 @@ You can install the package via composer:
 composer require appstract/laravel-options
 ```
 
-### Publish, migrate
+### Migrate
 
-By running `php artisan vendor:publish --provider="Appstract\Options\OptionsServiceProvider"` in your project all files for this package will be published. For this package, it's only a migration. Run `php artisan migrate` to migrate the table. There will now be an `options` table in your database.
+Run `php artisan migrate` to migrate the table. There will now be an `options` table in your database.
 
 ## Usage
 
@@ -37,7 +39,7 @@ option_exists('someKey');
 If you want to check if an option exists, you can use the facade:
 
 ```php
-use Option;
+use RogerArruda\LaravelOptions\Models\Option;
 
 $check = Option::exists('someKey');
 ```
