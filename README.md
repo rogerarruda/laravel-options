@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rogerarruda/laravel-options.svg?style=flat-square)](https://packagist.org/packages/rogerarruda/laravel-options)
 [![Total Downloads](https://img.shields.io/packagist/dt/rogerarruda/laravel-options.svg?style=flat-square)](https://packagist.org/packages/rogerarruda/laravel-options)
-[![Software License](https://img.shields.io/apm/l/laravel-options.svg?style=flat)](LICENSE.md)
+[![Software License](https://img.shields.io/packagist/l/rogerarruda/laravel-options.svg?style=flat)](LICENSE.md)
 [![Compatible with Laravel](https://img.shields.io/badge/laravel-%5E5.7.*-brightgreen.svg)](https://laravel.com)
 
 Global key-value store in the database
@@ -14,7 +14,7 @@ Original Copyright(c) [AppStract](https://github.com/appstract/laravel-options)
 You can install the package via composer:
 
 ```bash
-composer require appstract/laravel-options
+composer require rogerarruda/laravel-options
 ```
 
 ### Migrate
