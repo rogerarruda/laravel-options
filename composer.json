@@ -28,7 +28,7 @@
     },
     "autoload": {
         "files": [
-            "src/helpers.php"
+            "src/Helpers/Helpers.php"
         ],
         "psr-4": {
             "RogerArruda\\LaravelOptions\\": "src"
